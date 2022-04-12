@@ -49,10 +49,13 @@ js
 (regel 24 tot en met 54)
 
 ## Over dit project
-Dit project is het team onderdeel, alle features zijn samengevoegd en gevormt naar 1 matching applicatie
+dit is een individuele tweede versie van een groepsproject, deze heeft een topic verwerkt en nog wat opgeschoonde code, 
+Alle bestanden waar ik persoonlijk aan gewerkt heb zijn hierboven via de de links te vinden.
+voor de topic zijn de bestanden "form.hbs", "emailform.js" en "app.js" van belang.
 
 ## Concept en Feature 🔮
-(Vaste concept moet nog precies worden geschreven)
+In deze applicatie kan je personen vinden die dezelfde gaming interesse hebben als jij, 
+je kan met ze matchen en vervolgens ze toevoegen op verschillende platforms.
 
 **De volgende features zitten in de applicatie**
 * log in
@@ -68,7 +71,7 @@ Wil je aan de slag met mijn project? Voer dan de volgende stappen uit:
 1. Open een terminal en navigeer naar een map waar jij mijn repository in wilt opslaan.
 2. Clone deze repository:
 ```
-git clone https://github.com/sasjakoning/blok-tech-2022-groepoek
+git clone https://github.com/sasjakoning/blok_tech_herkansing
 ```
 3. Wanneer dit is gelukt heb je de repository op je eigen computer staan. Navigeer binnen deze repository in de terminal. Je wilt nu alle packages installeren die je nodig hebt voor deze feature. Om dit project vervolgens te laten werken voer je het volgende commando uit:
 ```
@@ -98,20 +101,18 @@ node -v #
 npm -v # 
 ```
 
-## Database
+
 
 ## Documentatie
-De gehele documentatie over het project, vind je in de [Wiki](https://github.com/sasjakoning/blok-tech-2022-groepoek/wiki). Hier lees je over hoe wij tot stand zijn gekomen van deze applicatie & ons onderzoek die er is gedaan.
+De gehele documentatie over mijn herkansingsproject vind je in mijn [Wiki](https://github.com/ChrisvanHvA/blocktech_herkansing/wiki). 
 
-## Lincense 📑
+## License 📑
 blok-tech-2022-groepoek is licensed met "MIT License" <br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contact 👥
-Sasja Koning - sasja.koning@hva.nl <br>
-Chris Gabriel III - chris.gabriel.iii@hva.nl <br>
-Romy-thu Zwijnenburg - romy-thu.zwijnenburg@hva.nl <br>
-Sandra Heijnekamp - sandra.heijnekamp@hva.nl <br>
-Megan de Ruig- megan.de.ruig@hva.nl <br>
 
-Project - https://github.com/sasjakoning/blok-tech-2022-groepoek <br>
+Chris Gabriel III - chris.gabriel.iii@hva.nl
+
+
+Project - https://github.com/ChrisvanHvA/blocktech_herkansing
