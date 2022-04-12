@@ -8,25 +8,38 @@ html (handlebars page)
 
 html (handlebars partials)
 [smallCard.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/smallCard.hbs)
+
 [navBar.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/navBar.hbs)
+
 [matchinfo.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/matchInfo.hbs)
+
 [infoEmpty.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/infoEmpty.hbs)
+
 [form.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/form.hbs)
+
 [background.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/background.hbs)
+
 [quote.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/quote.hbs)
 
 css:
 [matches.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/matches.css)
+
 [navBar.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/navBar.css)
+
 [matchinfo.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/matchInfo.css)
+
 [quote.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/quote.css)
+
 [smallCards.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/smallCards.css)
+
 [background.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/background.css)
+
 [app.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/app.js)
 (in de app.js is het rij 30 tot en met 60)
 
 js
 [matches.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/matches.js)
+
 [emailform.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/emailform.js)
 
 ## Over dit project
