@@ -4,9 +4,11 @@ Dit is mijn individuele stuk waarin ik mijn code heb verbeterd en een topic heb 
 alle relevante bestanden zijn:
 
 html (handlebars page)
+
 [matches.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/matches.hbs)
 
 html (handlebars partials)
+
 [smallCard.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/smallCard.hbs)
 
 [navBar.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/navBar.hbs)
@@ -22,6 +24,7 @@ html (handlebars partials)
 [quote.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/quote.hbs)
 
 css:
+
 [matches.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/matches.css)
 
 [navBar.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/navBar.css)
@@ -38,6 +41,7 @@ css:
 (in de app.js is het rij 30 tot en met 60)
 
 js
+
 [matches.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/matches.js)
 
 [emailform.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/emailform.js)
