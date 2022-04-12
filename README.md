@@ -37,14 +37,16 @@ css:
 
 [background.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/background.css)
 
-[app.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/app.js)
-(in de app.js is het rij 30 tot en met 60)
 
 js
 
 [matches.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/matches.js)
 
 [emailform.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/emailform.js)
+
+
+[app.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/app.js)
+(regel 24 tot en met 54)
 
 ## Over dit project
 Dit project is het team onderdeel, alle features zijn samengevoegd en gevormt naar 1 matching applicatie
