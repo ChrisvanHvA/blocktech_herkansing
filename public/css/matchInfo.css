@@ -45,3 +45,20 @@
 .motivation:hover {
     color: var(--accent)
 }
+
+.contact-form{
+    margin-top: 25em;
+}
+.contact-form > h2 {
+    font-size: 1.4em;
+    color: var(--accent);
+}
+
+.contact-form > input.submit {
+    font-weight: bold;
+    color: white;
+    background-color: var(--accent);
+    border: none;
+    padding: 0.6em;
+    border-radius: 0.2em;
+}

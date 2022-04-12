@@ -21,6 +21,7 @@
   "homepage": "https://github.com/sasjakoning/blok-tech-2022-groepoek#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
     "compress": "^0.99.0",
     "compression": "^1.7.4",
     "connect-mongo": "^4.6.0",
@@ -34,7 +35,8 @@
     "hbs": "^4.2.0",
     "mongodb": "^4.4.1",
     "mongoose": "^6.2.7",
-    "multer": "^1.4.4"
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.3"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
