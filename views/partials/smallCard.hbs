@@ -9,24 +9,31 @@
         <section class="smallCardBack">
             backside
         </section>
-    
+
         <section class="smallCardFront">
             <picture class="smallCardPic">
-          
+
                 <img src="/images/user-image1.jpg" alt="" />
             </picture>
 
             <article>
-                 <h1>{{this.firstname}} {{this.lastname}} - {{this.age}}</h1>
+                <h1>{{this.firstname}} {{this.lastname}} - {{this.age}}</h1>
                 <p>{{this.location}}</p>
-             <ul>
+                <ul>
                     {{#each interests}}
-                        <li>{{this}}</li>
+                    <li>{{this}}</li>
                     {{/each}}
-                   
+
                 </ul>
 
                 
+                <form method="POST" action="/matches/{{this._id}}">
+
+                    <button class="matchChat">Delete Match</button>
+
+                </form>
+
+
             </article>
         </section>
 

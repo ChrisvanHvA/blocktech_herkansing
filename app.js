@@ -13,7 +13,6 @@ let session = require("express-session");
 const mongoStore = require("connect-mongo");
 const nodemailer = require('nodemailer');
 require("dotenv").config();
-
 const {
   authenticate
 } = require('./config/auth');
@@ -21,7 +20,11 @@ const {
   createHistogram
 } = require('perf_hooks');
 
-//nodemailer log in 
+//middleware
+app.use(express.static('/public'));
+app.use(express.json())
+
+
 app.post('/', (req, res) => {
   console.log(req.body)
 
