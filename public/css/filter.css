@@ -188,3 +188,6 @@ button{
     outline: none;
     padding: 10px 16px;
 }
+button.opslaan:hover {
+  background-color: #f76560;
+}

@@ -63,7 +63,12 @@
     transform: scaleX(-1);
    
 }
-
+.smallCardBack img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: scaleX(-1);
+}
 .smallCardFront {
     background: var(--primary2);
     backface-visibility: hidden;
@@ -77,12 +82,15 @@
     width: calc(100% - 2em);
     margin-top: 1em;
     display: block;
+ 
 }
 
 .smallCardFront > picture > img {
     width: 100%;
     object-fit: cover;
 	border-radius: 1.2em;
+  
+
 }
 
 .smallCardFront > article {

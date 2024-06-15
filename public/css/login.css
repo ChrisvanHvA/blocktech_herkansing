@@ -1,6 +1,12 @@
 
 /* Styling Login Form*/
- 
+ .loginBg {
+    mix-blend-mode: hard-light;
+    position: absolute;
+    bottom: 0;
+  left: 0;
+    z-index: -1;
+ }
 #loginpage, #registerpage {
     overflow-x: hidden;
     height: 100%;
@@ -68,7 +74,10 @@
     font-weight: 600;
     padding: 10px;
 }
- 
+#loginpage main form input:last-of-type:hover {
+    background-color: rgb(231, 88, 83);
+    transition: 0.5s;
+}
 #loginpage main form input, #registerpage main form input {
     padding: 14px;
     border-radius: 8px;

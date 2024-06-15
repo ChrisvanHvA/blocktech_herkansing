@@ -203,10 +203,11 @@
 
 .profilePage>form>div:nth-of-type(2) div:not(.profilePage > form > div:nth-of-type(2) > div:last-of-type) {
     display: flex;
-    justify-content: space-between;
+padding: 0.5em;
     align-items: center;
     font-size: 1.3em;
 }
+
 
 .profilePage>form>div:nth-of-type(2) div:nth-of-type(4) {
     margin: 0 0 1.5em 0;
@@ -214,8 +215,9 @@
 
 .profilePage>form>div:nth-of-type(2) input {
     width: 22.05em;
-    padding: 0.5em 0.3em;
-    margin: 0 0 0.5em 0;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+
     border: none;
     border-radius: 5px;
 }
@@ -286,7 +288,17 @@
     width: 15em;
     margin: 1em 0 0 0;
 }
-
+.length {
+    justify-content: flex-start;
+    display: flex;
+    margin: 1em;
+    padding: 0em;
+}
+#formLengte {
+  
+    max-width: 5em;
+    margin-right: 0.5em;
+}
 .profilePage>form>div:nth-of-type(3) div {
     display: flex;
     align-items: center;

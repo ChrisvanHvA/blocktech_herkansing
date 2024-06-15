@@ -29,20 +29,21 @@
             <div>
                 <label for="formLeeftijd">Geslacht</label>
                 <input type="text" id="formGender" name="geslacht" value="{{this.gender}}"
-                    placeholder="Laat potentiele matches weten hoe oud je bent">
+                    placeholder="typ hier je geslacht!">
             </div>
             <div>
                 <label for="formLeeftijd">Leeftijd</label>
-                <input type="number" id="formLeeftijd" name="leeftijd" value="{{this.age}}"
+                <input type="number" id="formLeeftijd" name="leeftijd" min="18" max="80" value="{{this.age}}"
                     placeholder="Laat potentiele matches weten hoe oud je bent">
             </div>
             <div>
                 <label for="formPlaats">Plaats</label>
                 <input type="text" id="formPlaats" name="plaats" value="{{this.location}}" placeholder="plaatsnaam">
             </div>
-            <div>
+            <div class="length">
                 <label for="formLengte">Lengte</label>
-                <input type="number" id="formLengte" name="lengte" value="{{this.height}}" min="100" max="250">
+                <input type="number" id="formLengte" name="lengte" value="{{this.height}}" min="40" max="300">
+                                <label for="formLengte">CM</label>
             </div>
             {{!-- <h2>Interesses</h2>
             <div class="grow-wrap">
