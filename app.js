@@ -75,7 +75,7 @@ app.use(session({
   store: new mongoStore({
     mongooseConnection: db,
     collections: "sessions",
-    mongoUrl: process.env.ATLAS_URL
+    mongoUrl: process.env.ATLAS_URI
   })
 }))
 

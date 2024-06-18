@@ -3,7 +3,7 @@
 require("dotenv").config();
 
 const mongoose = require("mongoose");
-const url = process.env.ATLAS_URL;
+const url = process.env.ATLAS_URI;
 
 const connectDb = async () => {
 
