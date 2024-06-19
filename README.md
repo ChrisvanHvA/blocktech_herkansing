@@ -8,6 +8,7 @@ In deze repository presenteer ik de vernieuwde versie van het groepsproject van 
 Alle bestanden waar ik persoonlijk aan gewerkt heb, zijn  gedocumenteerd in mijn wiki.
 ## Documentatie
 De gehele documentatie over mijn herkansingsproject vind je in mijn [Wiki](https://github.com/ChrisvanHvA/blocktech_herkansing/wiki). 
+
 de gedeployde versie [kan je hier vinden!](https://blocktechherkansing-production-dbef.up.railway.app/login)
 
 
