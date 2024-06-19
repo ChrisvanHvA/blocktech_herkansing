@@ -13,19 +13,15 @@ de gedeployde versie [kan je hier vinden!](https://blocktechherkansing-productio
 
 
 
-## Concept en Feature 🔮
-In deze applicatie kan je personen vinden die dezelfde gaming interesse hebben als jij, 
-je kan met ze matchen en vervolgens ze toevoegen op verschillende platforms.
+## Concept🔮
+In deze applicatie kan je personen vinden die dezelfde gaming interesses hebben, 
+je kan met ze matchen en vervolgens toevoegen op verschillende platforms.
 **De volgende features zitten in de applicatie**
 * log in
 * Account aanmaken & Editen
 * Filteren
 * Swipen/matchen
-**De volgende features zitten in de applicatie**
-* log in
-* Account aanmaken & Editen
-* Filteren
-* Swipen/matchen
+* mailer
 
 ___________________________________________________________________________________________
 
