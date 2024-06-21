@@ -58,17 +58,8 @@
 	border-radius: 1.2em;
 }
 
-.smallCardBack {
-    background: var(--primary2);
-    transform: scaleX(-1);
-   
-}
-.smallCardBack img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform: scaleX(-1);
-}
+
+
 .smallCardFront {
     background: var(--primary2);
     backface-visibility: hidden;
@@ -92,7 +83,12 @@
   
 
 }
-
+.smallCardBack > img {
+    width: 100%;
+    object-fit: cover;
+	border-radius: 1.2em;
+    transform: scaleX(-1)
+}
 .smallCardFront > article {
 	width: calc(100% - 2em);
 	font-size: 12px;

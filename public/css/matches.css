@@ -1,12 +1,12 @@
 
 html {
     /* firefox fix */
-    scrollbar-color: #FF8580 #FFD6D1;
+    scrollbar-color: #006eff00 rgba(255, 255, 255, 0);
     scrollbar-width: thin;
 }
 
 ::-webkit-scrollbar {
-    width: 0.5em;  
+    appearance: none;
 
 }
   
@@ -97,4 +97,26 @@ ul.smallCards > li {
     height: 80px;
     position: fixed;
     bottom: 0;
+}
+button.matchChat {
+    margin-top: 0;
+}
+
+#message, #email {
+    background-color: #ffffff;
+    border: 1px solid#FFD6D1;
+    border-radius: 10px;
+    padding: 0.3em;
+margin-top: 1em;
+}
+.logoSpin:hover {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
 }

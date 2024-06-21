@@ -55,10 +55,16 @@
 }
 
 .contact-form > input.submit {
+    margin-top: 0.5em;
     font-weight: bold;
     color: white;
     background-color: var(--accent);
     border: none;
     padding: 0.6em;
     border-radius: 0.2em;
+}
+.contact-form > input.submit:hover {
+    border: 2px solid var(--accent);
+    background-color: white;
+    color:  var(--accent);
 }
