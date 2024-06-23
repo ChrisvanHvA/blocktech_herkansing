@@ -121,7 +121,7 @@ app.use("/login", require("./routes/loginregister"))
 app.use("/swiping", require("./routes/likedislike"))
 
 app.use("/matches", require("./routes/matches"))
-
+app.use("/lovemeter", require("./routes/lovechecker"))
 app.use("/profile", require("./routes/profile"))
 app.post("/avatarupdate", require("./routes/profile"))
 app.post("/updateprofile", require("./routes/profile"))
