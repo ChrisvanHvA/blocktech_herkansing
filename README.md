@@ -1,5 +1,5 @@
 # Groepoek - Herkansing Chris Gabriel III
-
+[![Used languages](https://skillicons.dev/icons?i=js,html,css,express,mongodb,npm,)](https://skillicons.dev)
 ![image](https://github.com/ChrisvanHvA/blocktech_herkansing/assets/90341211/43f1c2d6-02bc-4a3c-88be-621d562b26cc)
 
 ## Over dit project
