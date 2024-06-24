@@ -35,7 +35,9 @@ app.post('/', (req, res) => {
       pass: process.env.PASS_USER
     }
   })
-//nodemailer incl. form options
+
+
+  //nodemailer incl. form options
   const mailOptions = {
     from: req.body.email,
     to: 'Datebattle@gmail.com',
@@ -125,6 +127,7 @@ app.use("/lovemeter", require("./routes/lovechecker"))
 app.use("/profile", require("./routes/profile"))
 app.post("/avatarupdate", require("./routes/profile"))
 app.post("/updateprofile", require("./routes/profile"))
+
 
 app.use("/filter", require("./routes/filter"))
 

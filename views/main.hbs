@@ -1,14 +1,14 @@
-
-  <header>
+<header>
     {{>navBar}}
-  </header>
+    {{>warning}}
+</header>
 <main>
     <article class="sideBar">
-         {{>filter}}
+        {{>filter}}
     </article>
     <article>
         {{#if isMatched}}
-            {{>matchPopup}}
+        {{>matchPopup}}
         {{/if}}
         {{#if data.length}}
         <section>

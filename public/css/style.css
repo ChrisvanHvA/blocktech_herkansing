@@ -49,3 +49,40 @@ main {
     display: flex;
     justify-content: center;
 }
+.mobileWarning {
+    display: none;
+} 
+@media (max-width: 900px) {
+    html {
+        overflow: hidden;
+    }
+    .mobileWarning {
+        display: block;
+        z-index: 101;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: var(--primary1);
+        text-align: center;
+        padding: 2em;
+        font-size: 2.5em;
+        color: white;
+        font-weight: bold;
+
+    }
+    .phoneWarning {
+        position: relative;
+        width: 10em;
+        height: auto
+    }
+    .svgBackground {
+        position: fixed;
+        bottom: 0;
+        z-index: -100;
+        background-color: var(--primary1);
+        width: 100%;
+        left: 0;
+        right: 0;
+        }
+        
+}

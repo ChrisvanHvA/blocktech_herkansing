@@ -1,15 +1,21 @@
 <div class="loveMeter">
+    <img src="/public/images/meter.png" alt="heart icon">
     <h1>The love meter!</h1>
     <h2>Find out if you're compatible</h2>
-    <form id="loveForm">
-        <input type="text" id="name1" placeholder="Enter first name">
-        <input type="text" id="name2" placeholder="Enter second name">
+    <form id="loveForm" method="POST" action="/lovemeter/result">
+        <div id="loveInputs">
+            <input type="text" id="name1" name="name1" placeholder="Your Name">
+            <input type="text" id="name2" name="name2" placeholder="Your Potential Partner">
+        </div>
         <button class="loveSubmit" type="submit">Calculate Love</button>
     </form>
-
-    <div id="result"></div>
+    <div id="result">
+        <p>{{data.name1}}</p>
+        <p>{{data.name2}}</p>
+     
+    </div>
+         <p>{{data.response}}</p> 
     <div id="progressContainer">
-        <div id="progressBar"></div>
+        <div id="progressBar" style="width: {{data.lovePercentage}};">{{data.lovePercentage}}</div>
     </div>
 </div>
-
