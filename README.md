@@ -23,63 +23,6 @@ je kan met ze matchen en vervolgens toevoegen op verschillende platforms.
 * Swipen/matchen
 * mailer
 
-___________________________________________________________________________________________
-
-
-alle relevante bestanden zijn:
-
-html (handlebars page)
-
-[matches.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/matches.hbs)
-
-html (handlebars partials)
-
-[smallCard.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/smallCard.hbs)
-
-[navBar.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/navBar.hbs)
-
-[matchinfo.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/matchInfo.hbs)
-
-[infoEmpty.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/infoEmpty.hbs)
-
-[form.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/form.hbs)
-
-[background.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/background.hbs)
-
-[quote.hbs](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/views/partials/quote.hbs)
-
-css:
-
-[matches.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/matches.css)
-
-[navBar.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/navBar.css)
-
-[matchinfo.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/matchInfo.css)
-
-[quote.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/quote.css)
-
-[smallCards.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/smallCards.css)
-
-[background.css](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/public/css/background.css)
-
-
-js
-
-[matches.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/matches.js)
-
-[emailform.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/routes/emailform.js)
-
-
-[app.js](https://github.com/ChrisvanHvA/blocktech_herkansing/blob/main/app.js)
-(regel 24 tot en met 54)
-
-
-
-
-
-
-
-
 ## License 📑
 blok-tech-2024-groepoek is licensed met "MIT License" <br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
