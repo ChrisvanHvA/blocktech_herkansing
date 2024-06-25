@@ -163,3 +163,21 @@ if (sPath.includes("swiping")) {
     });
   };
 }
+//luistert of er op escape is geclicked en voert daarna de functie toggleFullscreen uit
+document.addEventListener(
+  "keydown",
+  (e) => {
+    if (e.key === "Enter") {
+      toggleFullScreen();
+    }
+  },
+  false,
+);
+// functie kijkt of de applicatie al fullscreen is, zo niet enabled hij het.
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else if (document.exitFullscreen) {
+    document.exitFullscreen();
+  }
+}
