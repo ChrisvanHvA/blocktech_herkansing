@@ -2,12 +2,12 @@
 const express = require("express");
 const handlebars = require("express-handlebars");
 const db = require("../config/connect.js"); //verbinding mongoDB
-const userModel = require("../models/user");
-const adminUserModel = require("../models/adminUser");
+const userModel = require("../models/user.js");
+const adminUserModel = require("../models/adminUser.js");
 const mongoose = require("mongoose");
 const toId = mongoose.Types.ObjectId;
 const bodyParser = require("body-parser");
-const { authenticate } = require('../config/auth');
+const { authenticate } = require('../config/auth.js');
 require("dotenv").config();
 
 // ---
@@ -19,14 +19,14 @@ const error = new Error("Plaatsgevonden error");
 router.use(bodyParser.urlencoded({ extended: false }));
 
 // Route to render the form
-router.get("/", authenticate, lovechecker);
+router.get("/", authenticate, lovemeter);
 
-async function lovechecker(req, res) {
+async function lovemeter(req, res) {
   try {
     const userid = req.session.userid;
     const currentUser = await userModel.findOne({ email: userid }).lean();
 
-    await res.render("lovechecker", {
+    await res.render("lovemeter", {
       layout: "index",
       data: currentUser,
     });
@@ -47,7 +47,7 @@ router.post("/result", authenticate, async function (req, res) {
 
     console.log(result.data)
 
-    res.render("lovechecker", {
+    res.render("lovemeter", {
       layout: "index",
       data: result.data,
     });
