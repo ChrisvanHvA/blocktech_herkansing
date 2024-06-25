@@ -10,17 +10,17 @@ const bodyParser = require("body-parser");
 const { authenticate } = require('../config/auth.js');
 require("dotenv").config();
 
-// ---
+
 
 const router = express.Router();
 const error = new Error("Plaatsgevonden error");
 
-// Middleware to parse URL-encoded bodies
+// Deze parser dat de encoded url geparsed wordt.
 router.use(bodyParser.urlencoded({ extended: false }));
 
-// Route to render the form
+//dit autenticate de gebruiker
 router.get("/", authenticate, lovemeter);
-
+// dit rendered de juiste pagina na het uitvoeren van de functie.
 async function lovemeter(req, res) {
   try {
     const userid = req.session.userid;
@@ -56,6 +56,7 @@ router.post("/result", authenticate, async function (req, res) {
   }
 });
 
+//deze maakt een call naar de api met de ingevulde velden en wacht daarna op een response. hij geeft ook de api key mee die in de .env file staat.
 const getLoveData = async (name1, name2) => {
   try {
     const url = `${endpoint}?name1=${name1}&name2=${name2}`;

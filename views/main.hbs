@@ -1,5 +1,6 @@
 <header>
     {{>navBar}}
+    {{!-- warning zorgt ervoor dat je niet de app probeert te gebruiken op een mobile device --}}
     {{>warning}}
 </header>
 <main>
@@ -7,6 +8,7 @@
         {{>filter}}
     </article>
     <article>
+        {{!-- de if/else statement kijkt of je matches hebt, zo niet dan veranderd de pagina om je te spotten en tips te geven. --}}
         {{#if isMatched}}
         {{>matchPopup}}
         {{/if}}
