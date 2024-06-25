@@ -60,8 +60,6 @@ const getLoveData = async (name1, name2) => {
   try {
     const url = `${endpoint}?name1=${name1}&name2=${name2}`;
 
-    console.log(url)
-
     const response = await fetch(url, {
       method: "GET",
       headers: {
