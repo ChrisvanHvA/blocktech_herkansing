@@ -168,13 +168,13 @@ document.addEventListener(
   "keydown",
   (e) => {
     if (e.key === "Enter") {
-      toggleFullScreen();
+      fullscreenMode();
     }
   },
   false,
 );
 // functie kijkt of de applicatie al fullscreen is, zo niet enabled hij het.
-function toggleFullScreen() {
+function fullscreenMode() {
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen();
   } else if (document.exitFullscreen) {
