@@ -11,6 +11,10 @@ De gehele documentatie over mijn herkansingsproject vind je in mijn [Wiki](https
 
 de gedeployde versie [kan je hier vinden!](https://blocktechherkansing-production-dbef.up.railway.app/login)
 
+## Zelf verder aan dit project?
+Als je zelf met de code wilt verder gaan, dan moet je eerst even contact met mij opnemen voor de .ENV files, anders kan je geen verbinding maken met de Mongo database.
+
+Nadat je dat gedaan hebt, moet je de volgende stappen volgen;
 
 1. Open een terminal en navigeer naar een map waar jij mijn repository in wilt opslaan.
 2. Clone deze repository:
