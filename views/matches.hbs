@@ -1,5 +1,6 @@
 <header>
     {{>navBar}}
+{{!-- warning zorgt ervoor dat je niet de app probeert te gebruiken op een mobile device --}}
     {{>warning}}
 </header>
 
@@ -11,7 +12,7 @@
             <h1 class="matchesTitle">Matches</h1>
 
         </article>
-
+{{!-- de if/else statement kijkt of je matches hebt, zo niet dan veranderd de pagina om je te spotten en tips te geven. --}}
         {{#if data.length}}
         <ul>
 
